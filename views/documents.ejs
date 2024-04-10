@@ -137,6 +137,21 @@
             </div>
         </div>   
 </div>               
+<% filenames.forEach(filename => { %>
+    <div class="col-lg-4 mb-4">
+      <div class="card border-0 shadow-sm mb-2">
+        <div class="card-body bg-light text-center p-4">
+          <h4 class=""><%= filename.fileName %></h4>
+          <a
+            href="<%= filename.fileName %>.pdf"
+            target="_blank"
+            class="btn btn-primary px-4 mx-auto my-2"
+            >Read More</a
+          >
+        </div>
+      </div>
+    </div>
+    <% }); %>
             </div>
         </div>
     </div>
