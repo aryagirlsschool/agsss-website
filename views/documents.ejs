@@ -94,49 +94,49 @@
                         <tr>
                             <td>1</td>
                             <td>Extension of Affiliation</td>
-                            <td><a href="Extension of Affiliation .pdf" target="_blank"
+                            <td><a href="/<%= encodeURIComponent('Affiliation Certificate .pdf') %>" target="_blank"
                                     class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>Trust Registration Certificate</td>
-                            <td><a href="Trust Registration Certificate .pdf" target="_blank" class="btn btn-primary btn-sm">View</a>
+                            <td><a href="/<%= encodeURIComponent('Trust Certificate .pdf') %>" target="_blank" class="btn btn-primary btn-sm">View</a>
                             </td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>Land Certificate</td>
-                            <td><a href="Land Certificate .pdf" target="_blank" class="btn btn-primary btn-sm">View</a>
+                            <td><a href="/<%= encodeURIComponent('LAND CERTIFICATE .pdf') %>" target="_blank" class="btn btn-primary btn-sm">View</a>
                             </td>
                         </tr>
                         <tr>
                             <td>4</td>
                             <td>Recognition Certificate</td>
-                            <td><a href="Recognition Certificate .pdf" target="_blank"
+                            <td><a href="/<%= encodeURIComponent('Recognition Certificate .pdf') %>" target="_blank"
                                     class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                         <tr>
                             <td>5</td>
                             <td>Building Safety Certificate</td>
-                            <td><a href="Building Safety Certificate .pdf" target="_blank"
+                            <td><a href="/<%= encodeURIComponent('Building safety Certificate .pdf') %>" target="_blank"
                                     class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                         <tr>
                             <td>6</td>
                             <td>Fire Safety Certificate</td>
-                            <td><a href="Fire Safety Certificate .pdf" target="_blank"
+                            <td><a href="/<%= encodeURIComponent('Fire safety Certificate .pdf') %>" target="_blank"
                                     class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                         <tr>
                             <td>7</td>
                             <td>DOE Certificate</td>
-                            <td><a href="DOE Certificate .pdf" target="_blank"
+                            <td><a href="/<%= encodeURIComponent('Self Certification .pdf') %>" target="_blank"
                                     class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                         <tr>
                             <td>8</td>
                             <td>Water Health & Sanitation Certificate</td>
-                            <td><a href="Water Health and Sanitation Certificate .pdf" target="_blank"
+                            <td><a href="/<%= encodeURIComponent('Water, Health Sanitation Certificate .pdf') %>" target="_blank"
                                     class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                         <% filenames.forEach((filename, index)=> { %>
@@ -147,8 +147,8 @@
                                 <td>
                                     <%= filename.fileName.replace(/(?:^|\s)\w/g, match=> match.toUpperCase()) %>
                                 </td>
-                                <td><a href="<%= filename.fileName %>.pdf" target="_blank"
-                                        class="btn btn-primary btn-sm">View</a></td>
+                                <td><a href="/<%= encodeURIComponent(filename.fileName + '.pdf') %>" target="_blank"
+                                    class="btn btn-primary btn-sm">View</a></td>
                             </tr>
                             <% }); %>
                     </tbody>
@@ -190,7 +190,7 @@
                         <tr>
                             <td>4</td>
                             <td>List of PTA Members</td>
-                            <td><a href="List of PTA Members .pdf" target="_blank"
+                            <td><a href="List of PTA Members.pdf" target="_blank"
                                     class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                     </tbody>
@@ -200,7 +200,7 @@
             <div class="text-center pb-2">
                 <p class="section-title px-5"><span class="px-2">Last Three Year Result of Board Exams</span></p>
             </div>
-
+ya
             <h5 class="mb-3 text-center">Class X</h5>
             <div class="table-responsive mb-4">
                 <table class="table table-bordered table-striped text-center">
